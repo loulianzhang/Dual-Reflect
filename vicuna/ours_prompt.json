@@ -1,0 +1,6 @@
+{
+    "forward translate": "Suppose you are a linguistic expert, proficient in translation from {src_lang} to {tgt_lang}. Translate following {src_lang} text provided by user into {tgt_lang} according to instructions given without any analysis.\n {src_lang} text: {src_text} \nInstructions: {instructions}",
+    "backward translate": "Suppose you are a linguistic expert, proficient in translation from {tgt_lang} to {src_lang}. Translate following {tgt_lang} text provided by user into {src_lang} without any analysis.\n{tgt_lang} text: {tgt_text}",
+    "dual comparison": "If you are a {src_lang} linguist, Determine whether the following two sentences provided by user convey the same meaning and style, including subtleties. If so, give \"OK\" response without any explanation, otherwise give \"BAD\" response and explain the reason.\n{src_text}\n{backtranslation}",
+    "dual reflection": "Based on previous analysis, translate all words or phrases in the first sentence that cause above differences into {tgt_lang}."
+}
