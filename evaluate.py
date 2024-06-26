@@ -34,8 +34,7 @@ def evaluate(save_path):
         data.extend(read_wmt2022(src_lang, tgt_lang))
     print(f"test data size: {len(data)}")
 
-    model = "gpt-3.5-turb" \
-            "m;zz;z:o"
+    model = "gpt-3.5-turbo"
 
     # import random
     # random.shuffle(data)
