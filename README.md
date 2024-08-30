@@ -34,10 +34,10 @@ To use DUAL-REFLECT, follow these steps:
 
 1. Use the Dual-Reflect Method:
    ```evaluate.pybash
-   python agent_with_LLM_as_judge.py
-
-   python agent_with_QE_as_judge.py
-   ```
+   python agent_with_LLM_as_judge.py  # Openai
+ 
+   python agent_with_QE_as_judge.py  # Open source models
+   ``` 
 
 2. If you want to debug the code:
    ```evaluate.py
