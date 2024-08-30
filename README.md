@@ -1,4 +1,6 @@
 # DUAL-REFLECT: Enhanced Translation with Dual-Reflective Learning
+ 
+ Paper link is :  https://aclanthology.org/2024.acl-short.64/
 
 ## Background
 
