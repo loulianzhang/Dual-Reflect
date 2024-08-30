@@ -4,11 +4,9 @@
 
 Large language models (LLMs) have shown remarkable abilities in various tasks, including machine translation. Recent advancements have demonstrated that LLMs can improve translation quality by employing self-reflective methods to refine initial drafts through feedback loops. However, the effectiveness of this self-reflection is often constrained by limited feedback, impacting the continuous improvement of translations.
 
-![intro-main-v2_00](https://github.com/user-attachments/assets/ff9d89d6-b000-4306-a7bc-fd2c3f794bda)
-
 To tackle this issue, we introduce **DUAL-REFLECT**, a framework that leverages the duality property of translation tasks to provide effective feedback to LLMs, thereby enhancing their reflective capabilities and improving translation performance. DUAL-REFLECT stands for **DUAL** learning enhanced auto-**REFLEC**tive **T**ranslation and consists of five stages:
 
-
+![intro-main-v2_00](https://github.com/user-attachments/assets/ff9d89d6-b000-4306-a7bc-fd2c3f794bda)
 
 1. **Draft Translation**: LLMs generate an initial translation.
 2. **Back Translation**: The draft translation is translated back to the source language.
@@ -24,7 +22,7 @@ To use DUAL-REFLECT, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/dual-reflect.git
+   git clone https://github.com/loulianzhang/Dual-Reflect.git
    ```
 
 2. Navigate to the project directory:
@@ -32,31 +30,21 @@ To use DUAL-REFLECT, follow these steps:
    cd dual-reflect
    ```
 
-3. Use the Dual-Reflect Method:
+## Usage
+
+1. Use the Dual-Reflect Method:
    ```evaluate.pybash
    python agent_with_LLM_as_judge.py
 
    python agent_with_QE_as_judge.py
    ```
 
-4. If you want to debug the code:
+2. If you want to debug the code:
    ```evaluate.py
    python evaluate.py
    ```
 
-## Usage
-
-To run DUAL-REFLECT, execute the following command:
-
-```bash
-python main.py --config config.yaml
-```
-
-Adjust the `config.yaml` file as needed for your specific translation tasks and data.
-
-## Contributions
-
-We welcome contributions to DUAL-REFLECT! 
+## Citation
 
 ```
 @inproceedings{chen-etal-2024-dual,
