@@ -1,5 +1,3 @@
-# Dual-Reflect
-
 # DUAL-REFLECT: Enhanced Translation with Dual-Reflective Learning
 
 ## Background
