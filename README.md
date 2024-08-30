@@ -32,9 +32,16 @@ To use DUAL-REFLECT, follow these steps:
    cd dual-reflect
    ```
 
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
+3. Use the Dual-Reflect Method:
+   ```evaluate.pybash
+   python agent_with_LLM_as_judge.py
+
+   python agent_with_QE_as_judge.py
+   ```
+
+4. If you want to debug the code:
+   ```evaluate.py
+   python evaluate.py
    ```
 
 ## Usage
