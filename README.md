@@ -6,7 +6,7 @@
 
 Large language models (LLMs) have shown remarkable abilities in various tasks, including machine translation. Recent advancements have demonstrated that LLMs can improve translation quality by employing self-reflective methods to refine initial drafts through feedback loops. However, the effectiveness of this self-reflection is often constrained by limited feedback, impacting the continuous improvement of translations.
 
-![DUAL-REFLECT Process](figure/intro-main-v2.pdf)
+![DUAL-REFLECT Process](intro-main-v2.pdf)
 
 To tackle this issue, we introduce **DUAL-REFLECT**, a framework that leverages the duality property of translation tasks to provide effective feedback to LLMs, thereby enhancing their reflective capabilities and improving translation performance. DUAL-REFLECT stands for **DUAL** learning enhanced auto-**REFLEC**tive **T**ranslation and consists of five stages:
 
